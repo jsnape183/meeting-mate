@@ -1,0 +1,55 @@
+{
+  "name": "meeting-mate",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/preset-env": "7.15.0",
+    "@babel/preset-react": "7.14.5",
+    "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
+    "@mui/core": "5.0.0-alpha.45",
+    "@mui/icons-material": "5.0.0-rc.0",
+    "@mui/lab": "5.0.0-alpha.45",
+    "@mui/material": "5.0.0-rc.0",
+    "@mui/styles": "5.0.0-rc.0",
+    "@reduxjs/toolkit": "1.6.1",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "12.0.0",
+    "@testing-library/user-event": "13.2.1",
+    "clsx": "1.1.1",
+    "html-to-image": "1.7.0",
+    "immutability-helper": "3.1.1",
+    "jest": "27.1.0",
+    "mongodb": "4.1.2",
+    "next": "latest",
+    "prop-types": "15.7.2",
+    "react": "^16.13.1",
+    "react-contenteditable": "3.3.6",
+    "react-dnd": "14.0.3",
+    "react-dnd-html5-backend": "14.0.1",
+    "react-dom": "^16.13.1",
+    "react-hotkeys": "2.0.0",
+    "react-redux": "7.2.5",
+    "redux-undo": "1.0.1",
+    "uuid": "8.3.2"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": []
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}
